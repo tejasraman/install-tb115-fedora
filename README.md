@@ -9,6 +9,7 @@ This is a simple script to install Thunderbird on Fedora 38/7/6. This uses packa
 ```
 git clone https://github.com/tejasraman/install-tb115-fedora.git
 cd install-tb115-fedora
+chmox +x install-tb115.py
 ./install-tb115.py
 ```
 
