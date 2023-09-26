@@ -7,11 +7,11 @@ version = osfinder.FindOsver()
 arch = osfinder.FindArch()
 
 urls = [
-    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.0.1/1.{version}/{arch}/thunderbird-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
-    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.0.1/1.{version}/{arch}/thunderbird-librnp-rnp-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
-    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.0.1/1.{version}/{arch}/thunderbird-debuginfo-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
-    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.0.1/1.{version}/{arch}/thunderbird-debugsource-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
-    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.0.1/1.{version}/{arch}/thunderbird-librnp-rnp-debuginfo-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1"
+    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.1.1/1.{version}/{arch}/thunderbird-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
+    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.1.1/1.{version}/{arch}/thunderbird-librnp-rnp-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
+    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.1.1/1.{version}/{arch}/thunderbird-debuginfo-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
+    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.1.1/1.{version}/{arch}/thunderbird-debugsource-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1",
+    f"https://kojipkgs.fedoraproject.org//packages/thunderbird/115.1.1/1.{version}/{arch}/thunderbird-librnp-rnp-debuginfo-115.1.1-1.{version}.{arch}.rpm > /dev/null 2>&1"
 ]
 
 os.system(f"mkdir /tmp/thunderbird-115-fedora")
